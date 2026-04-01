@@ -1,0 +1,376 @@
+INFO:     Will watch for changes in these directories: ['/Users/narayan_sharma/Desktop/FastAPI-FSD/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [26911] using WatchFiles
+INFO:     Started server process [26968]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:54721 - "GET /api/tasks HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:54780 - "GET /api/tasks HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:54821 - "GET /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54880 - "PATCH /api/tasks/1 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/schemas/task_schema.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [26968]
+INFO:     Started server process [27576]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55029 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55029 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55029 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55029 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55030 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55035 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55036 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55029 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55029 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55029 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55036 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55036 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55205 - "OPTIONS /api/tasks/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55205 - "PATCH /api/tasks/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55206 - "OPTIONS /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55206 - "PATCH /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55235 - "OPTIONS /api/tasks/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55235 - "PATCH /api/tasks/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "DELETE /api/tasks/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55321 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55321 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55321 - "GET /api/roles/ HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/api/routes/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27576]
+INFO:     Started server process [27691]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/api/routes/auth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27691]
+INFO:     Started server process [27704]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/schemas/user_schema.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27704]
+INFO:     Started server process [27707]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57261 - "GET /api/auth/permissions HTTP/1.1" 401 Unauthorized
+WARNING:  WatchFiles detected changes in 'app/schemas/user_schema.py', 'app/api/routes/auth.py', 'app/api/routes/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27707]
+INFO:     Started server process [28156]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57638 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57639 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57637 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57638 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57637 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57638 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57795 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57796 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57797 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57798 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57640 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57798 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57832 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57833 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57834 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57835 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57832 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57833 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57833 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57836 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57837 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57837 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57837 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58158 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58159 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58160 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58158 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58160 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58159 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58161 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58190 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58191 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58161 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58190 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58191 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58368 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58368 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58368 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58447 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58446 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58447 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58446 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58447 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58447 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58447 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58447 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58542 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58541 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58543 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58542 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58543 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58541 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58566 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58567 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58568 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58567 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58566 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58568 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59835 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59835 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59835 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59965 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59966 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59965 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59966 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59966 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59966 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59954 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60045 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60047 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60045 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60047 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60047 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60047 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60084 - "OPTIONS /api/users/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60084 - "PATCH /api/users/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60085 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60084 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60102 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60102 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60085 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60102 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60084 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60084 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60157 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60157 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60212 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60213 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60214 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60214 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60212 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60213 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61588 - "GET /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62096 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62097 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62098 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62099 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62096 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62096 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62140 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62141 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62140 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62140 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62195 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62293 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62294 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62195 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62293 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62294 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62294 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62293 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62195 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62195 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62195 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62293 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62294 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62294 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62575 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62575 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62575 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62680 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62681 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62680 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62681 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62712 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62711 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62713 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62712 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62711 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62713 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62713 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62713 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62794 - "OPTIONS /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62794 - "PATCH /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62795 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62838 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62839 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62838 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62795 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62839 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49433 - "GET /api/auth/permissions HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:49458 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49483 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49598 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49768 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49768 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49768 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49768 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49769 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49769 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49768 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49771 - "OPTIONS /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49769 - "OPTIONS /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49772 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49773 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49773 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49772 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49910 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49911 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49910 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49910 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50286 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50286 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50286 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50319 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50320 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50319 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50319 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50321 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50321 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50321 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50739 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50739 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50739 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50762 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50762 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50867 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50867 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50867 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51158 - "OPTIONS /api/projects/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51158 - "DELETE /api/projects/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51158 - "OPTIONS /api/projects/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51159 - "DELETE /api/projects/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51159 - "OPTIONS /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51158 - "DELETE /api/tasks/1 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51271 - "OPTIONS /api/tasks/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51271 - "DELETE /api/tasks/2 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51271 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51272 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51271 - "GET /api/projects/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51272 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51272 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51271 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51272 - "GET /api/tasks/?skip=0&limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51271 - "GET /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "OPTIONS /api/projects/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "POST /api/projects/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51397 - "POST /api/projects/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51559 - "POST /api/projects/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "POST /api/projects/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51767 - "OPTIONS /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51767 - "POST /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51768 - "POST /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52041 - "POST /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52041 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52041 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52144 - "OPTIONS /api/roles/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52144 - "PUT /api/roles/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52145 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52145 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52341 - "OPTIONS /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52341 - "PATCH /api/tasks/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52342 - "POST /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52607 - "POST /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52680 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52680 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52680 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52680 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52681 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52716 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52716 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52787 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52787 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52787 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52940 - "POST /api/tasks/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53100 - "OPTIONS /api/tasks/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53100 - "PATCH /api/tasks/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53101 - "OPTIONS /api/tasks/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53101 - "PATCH /api/tasks/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53445 - "GET /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53548 - "OPTIONS /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58080 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58080 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58157 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58157 - "GET /api/roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58310 - "POST /api/auth/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58310 - "OPTIONS /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58310 - "GET /api/users/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58310 - "OPTIONS /api/auth/permissions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58311 - "GET /api/auth/permissions HTTP/1.1" 200 OK
