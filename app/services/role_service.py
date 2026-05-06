@@ -130,18 +130,7 @@ class RoleService:
         return self.repository.update(role)
     
     def delete_role(self, role_id: int) -> bool:
-        """
-        Delete a role.
         
-        Args:
-            role_id: Role ID
-            
-        Returns:
-            bool: True if deleted
-            
-        Raises:
-            HTTPException: If role not found, is system role, or has users assigned
-        """
         role = self.repository.get_by_id(role_id)
         if not role:
             raise HTTPException(status_code=404, detail="Role not found")
@@ -162,17 +151,7 @@ class RoleService:
         return self.repository.delete(role)
     
     def check_permission(self, role_id: int, resource: str, action: str) -> bool:
-        """
-        Check if a role has permission for an action on a resource.
         
-        Args:
-            role_id: Role ID
-            resource: Resource type ('project' or 'task')
-            action: Action type ('create', 'read', 'update', 'delete')
-            
-        Returns:
-            bool: True if permission granted
-        """
         role = self.repository.get_by_id(role_id)
         if not role:
             return False

@@ -16,13 +16,27 @@ def create_app() -> FastAPI:
     # Create DB tables (Alembic preferred for production)
     Base.metadata.create_all(bind=engine)
 
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=[o for o in settings.BACKEND_CORS_ORIGINS],
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"]
-    )
+    # Configure CORS
+    if settings.ENV == "development":
+        app.add_middleware(
+            CORSMiddleware,
+            allow_origins=["*"],
+            allow_credentials=False,
+            allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH", "HEAD"],
+            allow_headers=["*"],
+            expose_headers=["*"],
+            max_age=3600
+        )
+    else:
+        app.add_middleware(
+            CORSMiddleware,
+            allow_origins=settings.BACKEND_CORS_ORIGINS,
+            allow_credentials=True,
+            allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH", "HEAD"],
+            allow_headers=["*"],
+            expose_headers=["*"],
+            max_age=3600
+        )
 
     # Include routers
     app.include_router(auth.router, prefix="/api/auth", tags=["auth"]) 
