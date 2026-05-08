@@ -13,6 +13,8 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
 
     BACKEND_CORS_ORIGINS: List[str] = [
+        "https://fastapi-fsd-backend.azurewebsites.net",
+        "https://fastapi-fsd-frontend.azurewebsites.net",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:8000",
